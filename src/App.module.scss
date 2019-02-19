@@ -1,0 +1,12 @@
+.App {
+    height: 100vh;
+
+    $headerHeight: 70px;
+    .headerBox  {
+        height: $headerHeight;
+    }
+
+    .bodyBox {
+        height: calc(100% - #{$headerHeight});
+    }
+}

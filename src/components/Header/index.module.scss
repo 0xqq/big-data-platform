@@ -1,4 +1,15 @@
+$height: 70px;
+
 .Header {
-    height: 100px;
-    color: red;
+    height: $height;
+    background: #002140;
+
+    .title {
+        height: 100%;
+        line-height: $height;
+        float: left;
+        font-size: 22px;
+        color: #fff;
+        padding-left: 30px;
+    }
 }
