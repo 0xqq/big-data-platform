@@ -24,4 +24,16 @@ $height: 70px;
         color: #fff;
         padding-left: 60px;
     }
+
+    $userBoxSize: 24px;
+    .userBox {
+        height: $userBoxSize;
+        width: 100px;
+        line-height: $userBoxSize;
+        border: 1px solid red;
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
 }
