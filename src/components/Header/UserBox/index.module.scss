@@ -5,3 +5,17 @@
         color: #3fdee2;
     }
 }
+
+.menu {
+    background: #24292d;
+    border: 1px solid #4dcdcd;
+
+    .menuItem {
+        color: #fff;
+
+        &:hover {
+            background: #21484c;
+            color: #17c1bd;
+        }
+    }
+}

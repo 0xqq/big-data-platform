@@ -4,8 +4,8 @@ import 'antd/dist/antd.css';
 import styles from './index.module.scss';
 
 const menu = (
-    <Menu>
-        <Menu.Item>
+    <Menu className={styles.menu}>
+        <Menu.Item className={styles.menuItem}>
             <div>退出登录</div>
         </Menu.Item>
     </Menu>
