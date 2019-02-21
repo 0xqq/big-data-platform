@@ -1,5 +1,5 @@
 import React from 'react';
-import { Menu, Dropdown, Icon } from 'antd';
+import { Menu, Dropdown, Icon, Avatar } from 'antd';
 import 'antd/dist/antd.css';
 import styles from './index.module.scss';
 
@@ -15,7 +15,9 @@ function UserBox() {
     return (
         <Dropdown overlay={menu}>
             <div className={styles.dropdownButton} href="#">
-                <span>admin</span><Icon type="down" />
+                <Avatar style={{ backgroundColor: '#87d068' }} className={styles.avatar} icon="user" />
+                <span>admin</span>
+                <Icon type="down" />
             </div>
         </Dropdown>
     );
