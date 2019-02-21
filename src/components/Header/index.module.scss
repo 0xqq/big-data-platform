@@ -25,12 +25,7 @@ $height: 70px;
         padding-left: 60px;
     }
 
-    $userBoxSize: 24px;
-    .userBox {
-        height: $userBoxSize;
-        width: 100px;
-        line-height: $userBoxSize;
-        border: 1px solid red;
+    .userBoxWrap {
         position: absolute;
         right: 20px;
         top: 50%;
